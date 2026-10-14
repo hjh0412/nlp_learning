@@ -1,0 +1,92 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ============ 编辑器 / IDE ============
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============ Jupyter ============
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============ 机器学习：模型权重 & 训练产物 ============
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.hdf5
+*.pb
+*.safetensors
+*.bin
+*.gguf
+runs/
+logs/
+checkpoints/
+outputs/
+wandb/
+lightning_logs/
+
+# 预训练模型目录
+**/PretrainedModel/
+**/pretrained_model/
+**/models/
+
+# ============ 数据集 & 大文件 ============
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.npz
+*.npy
+*.arrow
+
+# 编辑器自动生成的类型存根（体积大、数量多）
+ML/typings/
+
+# ============ 环境变量 / 密钥 ============
+.env
+.env.local
+*.key
+*.pem
+
+# ============ 其他 ============
+*.log
+*.tmp
+temp/
+tmp/
